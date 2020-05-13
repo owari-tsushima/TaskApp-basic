@@ -23,6 +23,22 @@ textarea {
   margin-bottom: 10px;
 }
 
+.navbar {
+  background-color: #008080;
+}
+
+.navbar li {
+  font-weight: bold;
+}
+
+.navbar li a {
+  color: #FFF;
+}
+
+.navbar li a:hover {
+  color: #808080;
+  background-color: #008080;
+}
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,10 +77,11 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: oblique; 
 }
 
 #logo:hover {
-  color: #fff;
+  color: #808080;
   text-decoration: none;
 }
 
